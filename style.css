@@ -124,6 +124,8 @@ nav {
     justify-content: space-between;
     width: 24px;
     height: 18px;
+    color: var(--text-white);
+    cursor: pointer;
 }
 
 .mobile-menu-btn i {
