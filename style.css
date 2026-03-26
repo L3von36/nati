@@ -723,6 +723,11 @@ footer {
     letter-spacing: 0.1em;
 }
 
+.footer-logo-img {
+    height: 32px;
+    filter: brightness(200%);
+}
+
 .footer-copyright {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
