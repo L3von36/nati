@@ -274,20 +274,15 @@
 
     <footer>
         <div class="container footer-content">
-            <div class="footer-logo">TERRALINE</div>
-            <div class="footer-info">
-                <p>&copy; 2024 Terraline Consulting Engineers. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
-            </div>
+            <img src="https://narrative-navi-nook.lovable.app/assets/terraline-logo-B75n1WOL.png" alt="Terraline" class="footer-logo-img">
+            <p class="footer-copyright">&copy; <span id="footer-year"></span> Terraline Consulting Engineers. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="main.js"></script>
     <script>
         lucide.createIcons();
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
