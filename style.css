@@ -98,7 +98,7 @@ nav {
     .nav-links {
         display: flex;
         list-style: none;
-        gap: 32px;
+        gap: 24px;
         margin-left: auto; /* Push links to the right */
     }
 
@@ -271,7 +271,7 @@ h2 {
 .about-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 24px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -369,7 +369,7 @@ h2 {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 32px;
+    gap: 24px;
 }
 
 .service-card {
@@ -439,13 +439,13 @@ h2 {
 
 /* Clients Section */
 .clients {
-    background: var(--bg-secondary);
+    background: transparent;
 }
 
 .clients-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
     margin-top: 64px;
 }
 
@@ -453,27 +453,24 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 40px 24px;
+    gap: 16px;
+    padding: 32px;
     background: white;
     border-radius: 12px;
     transition: var(--transition);
-    border: 1px solid rgba(226, 232, 240, 0.8);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    min-height: 120px;
-    justify-content: center;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .client-item:hover {
     transform: translateY(-4px);
     background: white;
-    border-color: var(--accent);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .client-item .lucide {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     color: var(--primary);
 }
 
@@ -544,7 +541,7 @@ h2 {
 .team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 24px;
     text-align: left;
     max-width: 900px;
     margin: 0 auto;
