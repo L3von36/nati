@@ -4,7 +4,7 @@
     --accent: #D5A754;
     --accent-dark: #b89146;
     --text-white: #FFFFFF;
-    --text-gray: #4B5563;
+    --text-gray: #94A3B8;
     --bg-light: #F8FAFC;
     --card-bg: rgba(255, 255, 255, 0.05);
     --transition: all 0.3s ease;
@@ -56,6 +56,19 @@ header {
     background: transparent;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--text-white);
+    letter-spacing: 0.1em;
+}
+
 header.scrolled {
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
@@ -69,32 +82,32 @@ nav {
     align-items: center;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 32px;
-    margin-left: auto; /* Push links to the right */
-}
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 32px;
+        margin-left: auto; /* Push links to the right */
+    }
 
-.nav-links a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-    transition: var(--transition);
-}
+    .nav-links a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: var(--transition);
+    }
 
-.nav-links a:hover {
-    color: var(--accent);
-}
+    .nav-links a:hover {
+        color: var(--accent);
+    }
 
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('https://narrative-navi-nook.lovable.app/assets/hero-bg-C_HfQagt.jpg') center/cover no-repeat;
+    background: url('hero-bg.png') center/cover no-repeat;
     display: flex;
     align-items: center;
     position: relative;
@@ -128,7 +141,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 72px;
     line-height: 1.1;
     margin-bottom: 24px;
     font-weight: 800;
@@ -141,10 +154,11 @@ nav {
 
 .hero-description {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 48px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.8);
     max-width: 700px;
+    line-height: 1.6;
 }
 
 .hero-btns {
@@ -547,7 +561,7 @@ h2 {
     background-color: var(--primary);
     color: var(--text-white);
     text-align: center;
-    padding: 150px 0;
+    padding: 120px 0;
 }
 
 .cta h2 {
@@ -614,10 +628,10 @@ footer {
 
 .footer-logo {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 1.8rem;
     color: var(--text-white);
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
 }
 
 .footer-info {
