@@ -825,6 +825,9 @@ footer {
     .about-grid {
         gap: 40px;
     }
+    .about-cards {
+        grid-template-columns: 1fr;
+    }
     .team-grid {
         grid-template-columns: 1fr;
     }
