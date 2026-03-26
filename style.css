@@ -142,7 +142,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('hero-bg.png') center/cover no-repeat;
+    background: url('hero-bg.png') center/cover no-repeat fixed;
     display: flex;
     align-items: center;
     position: relative;
