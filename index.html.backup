@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraline Consulting Engineers | Highway, Transport & Geotechnical Engineering</title>
+    <meta name="description" content="Ethiopia-based consulting engineers specializing in highway design, transport infrastructure, and geotechnical engineering.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-text">TERRALINE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content text-center">
+                <p class="hero-tagline">Highway • Transport • Geotechnical</p>
+                <h1>Engineering Infrastructure<br><span class="highlight">That Delivers</span></h1>
+                <p class="hero-description mx-auto">Ethiopia-based consulting engineers specializing in highway design, transport infrastructure, and geotechnical engineering.</p>
+                <div class="hero-btns justify-center">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-bottom-fade"></div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container text-center">
+                <p class="section-tagline">WHO WE ARE</p>
+                <h2>Company Overview</h2>
+                <div class="about-grid">
+                    <div class="about-text text-center">
+                        <p class="mx-auto" style="max-width: 800px;">Terraline Consulting Engineers is an Ethiopia-based engineering firm specializing in highway and transport infrastructure. We operate as a capacity-enhancing partner to consultants, contractors, government agencies, and developers.</p>
+                    </div>
+                    
+                    <div class="about-cards">
+                        <div class="vision-card">
+                            <div class="icon-box"><i data-lucide="eye"></i></div>
+                            <h3>Our Vision</h3>
+                            <p>To be a trusted Ethiopian partner for safe, durable, and cost-effective road infrastructure.</p>
+                        </div>
+                        <div class="mission-card">
+                            <div class="icon-box"><i data-lucide="target"></i></div>
+                            <h3>Our Mission</h3>
+                            <p>To strengthen project outcomes through disciplined engineering production and QA/QC-driven delivery systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <span class="feature-number">1</span>
+                            <p>Structured Workflows & Internal Technical Review</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-number">2</span>
+                            <p>Clear Documentation</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-number">3</span>
+                            <p>Flexible Engagement Model</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-number">4</span>
+                            <p>Delivery-Focused Leadership</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container text-center">
+                <p class="section-tagline">WHAT WE DO</p>
+                <h2>Our Services</h2>
+                <p class="section-description mx-auto">We provide services across the highway and transport project lifecycle, delivered as standalone work packages or sub-consultancy arrangements.</p>
+                
+                <div class="services-grid text-left">
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="map"></i></div>
+                        <h3>Highway Engineering & Road Design</h3>
+                        <ul>
+                            <li>Highway Geometric design (rural and urban roads)</li>
+                            <li>Pavement design (flexible and rigid)</li>
+                            <li>Intersection/interchange concept support</li>
+                            <li>Quantity take-off (QTO) and BoQ support</li>
+                            <li>Tender drawings, specs, and IFC documentation</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="activity"></i></div>
+                        <h3>Traffic Engineering & Road Safety</h3>
+                        <ul>
+                            <li>Traffic counts and basic traffic analysis</li>
+                            <li>Traffic impact assessment support</li>
+                            <li>Road safety audits (design-stage & existing-road)</li>
+                            <li>Signing/marking concept support</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="layers"></i></div>
+                        <h3>Geotechnical Engineering</h3>
+                        <ul>
+                            <li>Soil investigation data interpretation</li>
+                            <li>Subgrade evaluation and classification</li>
+                            <li>Settlement, bearing capacity & slope stability</li>
+                            <li>Geotechnical reporting and earthworks analysis</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="droplets"></i></div>
+                        <h3>Hydraulics & Drainage</h3>
+                        <ul>
+                            <li>Highway drainage concept and detailed design</li>
+                            <li>Culvert hydraulic analysis support</li>
+                            <li>Catchment/hydrology analysis</li>
+                            <li>Flood risk screening support</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="clipboard-check"></i></div>
+                        <h3>Construction Supervision & Technical Support</h3>
+                        <ul>
+                            <li>Construction methodology review</li>
+                            <li>Compliance checks</li>
+                            <li>Site support calculations</li>
+                            <li>Variation order technical support</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon"><i data-lucide="briefcase"></i></div>
+                        <h3>Feasibility & Project Management</h3>
+                        <ul>
+                            <li>Feasibility study support</li>
+                            <li>Tender preparation and bid evaluation</li>
+                            <li>PMO-style reporting (schedule/cost/risk)</li>
+                            <li>Transport/logistics planning support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="clients">
+            <div class="container text-center">
+                <p class="section-tagline">WHO WE SERVE</p>
+                <h2>Our Clients</h2>
+                <div class="clients-grid">
+                    <div class="client-item"><i data-lucide="building-2"></i><span>Government & City Authorities</span></div>
+                    <div class="client-item"><i data-lucide="users"></i><span>Contractors & Consultants</span></div>
+                    <div class="client-item"><i data-lucide="heart"></i><span>NGOs</span></div>
+                    <div class="client-item"><i data-lucide="globe"></i><span>International Firms</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partnership" class="partnership">
+            <div class="container text-center">
+                <p class="section-tagline">HOW WE WORK</p>
+                <h2>Partnership Models</h2>
+                <p class="section-description mx-auto">We function as an extension of your engineering team with transparent process and predictable delivery.</p>
+                <div class="partnership-list text-left">
+                    <div class="partnership-item">
+                        <span class="partnership-number">1</span>
+                        <p>Project-based outsourcing (fixed scope & timeline)</p>
+                    </div>
+                    <div class="partnership-item">
+                        <span class="partnership-number">2</span>
+                        <p>Retainer-based engineering support (monthly capacity)</p>
+                    </div>
+                    <div class="partnership-item">
+                        <span class="partnership-number">3</span>
+                        <p>Sub-consultancy agreements (defined work packages)</p>
+                    </div>
+                    <div class="partnership-item">
+                        <span class="partnership-number">4</span>
+                        <p>Joint venture technical contribution</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <p class="section-tagline">LEADERSHIP</p>
+                <h2>Our Founders</h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="profile-avatar">HM</div>
+                        <div class="profile-info">
+                            <h3>Henok A. Mamo</h3>
+                            <p class="title">Co-Founder & Technical Director</p>
+                            <p class="specialty">Civil & Infrastructural Engineer</p>
+                            <p class="education">MSc in Civil Engineering (Geotechnical)</p>
+                            <p class="desc">8+ major road projects & 300+ km corridor design experience. Advanced expertise in Autodesk Civil 3D, corridor modeling, hydrology/hydraulics, and soil stabilization.</p>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="profile-avatar">NM</div>
+                        <div class="profile-info">
+                            <h3>Natnael G. Mekonnen</h3>
+                            <p class="title">Co-Founder & Managing Director</p>
+                            <p class="specialty">Civil Engineer & Business Strategist</p>
+                            <p class="education">MSc in Civil Engineering (Road & Transport), BA in Business Management</p>
+                            <p class="desc">Consulted and established more than six startups. Leads commercial strategy, partnerships, and project delivery systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta">
+            <div class="container">
+                <p class="section-tagline">GET IN TOUCH</p>
+                <h2>Let's Build Infrastructure That Delivers</h2>
+                <p>Ready to strengthen your project delivery? Reach out to discuss how Terraline can support your next project.</p>
+                <div class="contact-methods">
+                    <div class="contact-box">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p>+251 923 599 1</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p>+251 911 623 540</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i data-lucide="mail"></i>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p>natygizachew@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <p class="contact-label">Location</p>
+                            <p>Hayahulet Area, Addis Ababa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="website-link">
+                    <a href="https://www.terralineengineering.com" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="globe"></i> www.terralineengineering.com
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <img src="https://narrative-navi-nook.lovable.app/assets/terraline-logo-B75n1WOL.png" alt="Terraline" class="footer-logo-img">
+            <p class="footer-copyright">&copy; <span id="footer-year"></span> Terraline Consulting Engineers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
