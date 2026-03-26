@@ -67,9 +67,11 @@ header.scrolled {
 }
 
 .logo-img {
-    height: 40px;
+    height: 32px;
     width: auto;
     display: block;
+    filter: brightness(2);
+    mix-blend-mode: screen;
 }
 
 nav {
@@ -77,6 +79,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    width: 100%;
 }
 
 .nav-links {
