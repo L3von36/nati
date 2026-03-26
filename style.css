@@ -342,7 +342,7 @@ h2 {
 
 .about-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
     max-width: 900px;
     margin: 0 auto;
@@ -823,8 +823,7 @@ footer {
         font-size: 3.5rem;
     }
     .about-grid {
-        grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 40px;
     }
     .team-grid {
         grid-template-columns: 1fr;
