@@ -467,9 +467,10 @@ h2 {
 
 .clients-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 174px);
     gap: 16px;
     margin-top: 48px;
+    justify-content: center;
 }
 
 .client-item {
