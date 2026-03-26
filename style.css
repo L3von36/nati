@@ -243,7 +243,7 @@ section {
 
 h2 {
     font-size: 40px;
-    margin-bottom: 48px;
+    margin-bottom: 64px;
     color: var(--primary);
     font-weight: 700;
 }
@@ -439,45 +439,49 @@ h2 {
 
 /* Clients Section */
 .clients {
-    background: var(--bg-light);
+    background: var(--bg-secondary);
 }
 
 .clients-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-    margin-top: 48px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    margin-top: 64px;
 }
 
 .client-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
-    padding: 32px;
-    background: var(--bg-light);
+    gap: 20px;
+    padding: 40px 24px;
+    background: white;
     border-radius: 12px;
     transition: var(--transition);
-    border: 1px solid transparent;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    min-height: 120px;
+    justify-content: center;
 }
 
 .client-item:hover {
     transform: translateY(-4px);
     background: white;
-    border-color: rgba(213, 167, 84, 0.2);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border-color: var(--accent);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .client-item .lucide {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     color: var(--primary);
 }
 
 .client-item span {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: var(--primary);
+    text-align: center;
 }
 
 /* Partnership Section */
@@ -783,5 +787,16 @@ footer {
         flex-direction: column;
         gap: 16px;
         text-align: center;
+    }
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .client-item {
+        padding: 24px 16px;
+        gap: 12px;
+    }
+    .client-item span {
+        font-size: 14px;
     }
 }
