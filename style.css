@@ -70,7 +70,7 @@ header {
 .logo-text {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--text-white);
     letter-spacing: 0.1em;
 }
@@ -772,6 +772,9 @@ footer {
     .team-grid {
         grid-template-columns: 1fr;
     }
+    .logo-text {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -796,6 +799,10 @@ footer {
         gap: 30px;
         text-align: center;
     }
+    .logo-text {
+        font-size: 1.1rem;
+    }
+}
     .footer-info {
         text-align: center;
     }
