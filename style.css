@@ -52,22 +52,31 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 32px 0;
+    padding: 0;
     transition: var(--transition);
-    background: transparent;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    height: 64px;
+    display: flex;
+    align-items: center;
 }
 
 header.scrolled {
-    background: rgba(15, 23, 42, 0.95);
-    backdrop-filter: blur(10px);
-    padding: 20px 0;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 64px;
 }
 
 .nav-links {
