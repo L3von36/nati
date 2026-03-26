@@ -823,4 +823,32 @@ footer {
     .client-item span {
         font-size: 14px;
     }
+    /* Mobile navigation */
+    .nav-links {
+        position: absolute;
+        top: 64px; /* header height */
+        right: 0;
+        background: var(--primary);
+        width: 100%;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        padding: 20px 0;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .nav-links li {
+        margin: 0;
+    }
+    .nav-links a {
+        padding: 16px 0;
+        display: block;
+        width: 100%;
+        color: rgba(255,255,255,0.7);
+    }
+    .nav-links a:hover {
+        color: var(--accent);
+    }
 }
