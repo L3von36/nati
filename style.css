@@ -142,7 +142,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('hero-bg.png') center/cover no-repeat;
+    background: url('hero-bg.png') center/cover no-repeat fixed;
     display: flex;
     align-items: center;
     position: relative;
@@ -199,6 +199,16 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.hero-sub-tagline {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -16px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
 }
 
 .hero-description {
@@ -300,32 +310,37 @@ h2 {
 }
 
 .features-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 24px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .feature-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
-    padding: 20px;
+    gap: 12px;
+    padding: 14px 20px;
+    background: white;
+    border-radius: 50px;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 
 .feature-number {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
     background-color: var(--primary);
     color: white;
     border-radius: 50%;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -334,6 +349,7 @@ h2 {
     font-weight: 500;
     margin: 0;
     color: var(--primary);
+    white-space: nowrap;
 }
 
 .vision-card, .mission-card {
@@ -656,14 +672,16 @@ h2 {
 }
 
 .contact-methods {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 .contact-box {
+    flex: 0 1 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -778,6 +796,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll;
+    }
     section {
         padding: 80px 0;
     }
