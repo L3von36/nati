@@ -5,6 +5,17 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('scrolled');
     }
+    
+    // Parallax effect for hero background
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        const heroHeight = hero.offsetHeight;
+        const scrollY = window.scrollY;
+        if (scrollY <= heroHeight) {
+            const parallaxOffset = scrollY * 0.3; // Adjust speed here (0.3 = 30% of scroll speed)
+            hero.style.backgroundPositionY = `calc(50% + ${parallaxOffset}px)`;
+        }
+    }
 });
 
 // Intersection Observer for Animations
