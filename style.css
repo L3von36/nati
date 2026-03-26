@@ -6,6 +6,7 @@
     --text-white: #FFFFFF;
     --text-gray: #4B5563;
     --bg-light: #F8FAFC;
+    --bg-secondary: #E8EDF4;
     --card-bg: rgba(255, 255, 255, 0.05);
     --transition: all 0.3s ease;
     --container-width: 1200px;
@@ -245,6 +246,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .features-grid {
@@ -252,6 +255,8 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 24px;
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .feature-item {
@@ -259,44 +264,27 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding: 24px;
-    background: white;
-    border-radius: 12px;
-    border: 1px solid rgba(226, 232, 240, 0.8);
-    transition: var(--transition);
-}
-
-.feature-item:hover {
-    transform: translateY(-4px);
-    border-color: rgba(213, 167, 84, 0.3);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    padding: 20px;
 }
 
 .feature-number {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
-    background-color: rgba(213, 167, 84, 0.1);
-    color: var(--accent);
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    color: white;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
 }
 
 .feature-item p {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     margin: 0;
     color: var(--primary);
-}
-
-.about-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
 }
 
 .vision-card, .mission-card {
@@ -314,12 +302,19 @@ h2 {
 }
 
 .icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(213, 167, 84, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 16px;
 }
 
 .icon-box .lucide {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     color: var(--accent);
 }
 
@@ -334,6 +329,10 @@ h2 {
 }
 
 /* Services Section */
+.services {
+    background-color: var(--bg-secondary);
+}
+
 .services .section-description {
     max-width: 768px;
     margin-bottom: 64px;
@@ -362,18 +361,30 @@ h2 {
 }
 
 .card-icon {
-    margin-bottom: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.service-card:hover .card-icon {
+    background-color: var(--accent);
 }
 
 .card-icon .lucide {
-    width: 40px;
-    height: 40px;
-    color: var(--accent);
+    width: 24px;
+    height: 24px;
+    color: white;
 }
 
 .service-card h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 16px;
     color: var(--primary);
 }
 
@@ -402,7 +413,7 @@ h2 {
 
 /* Clients Section */
 .clients {
-    background: white;
+    background: var(--bg-light);
 }
 
 .clients-grid {
@@ -496,21 +507,24 @@ h2 {
 
 /* Team Section */
 .team {
-    background-color: white;
+    background-color: var(--bg-secondary);
     text-align: center;
 }
 
 .team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 48px;
+    gap: 32px;
     text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .team-card {
-    background: var(--bg-light);
-    padding: 60px;
-    border-radius: 20px;
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    border: 1px solid rgba(214, 218, 229, 0.8);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -518,37 +532,34 @@ h2 {
 }
 
 .team-card:hover {
-    background: white;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.07);
 }
 
 .profile-avatar {
-    width: 100px;
-    height: 100px;
+    width: 64px;
+    height: 64px;
     background: var(--primary);
-    color: var(--accent);
+    color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .team-card h3 {
-    font-size: 2rem;
-    margin-bottom: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
 }
 
 .team-card .title {
-    color: var(--accent-dark);
-    font-weight: 700;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-size: 0.95rem;
-    letter-spacing: 1px;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 0.875rem;
 }
 
 .team-card .specialty {
