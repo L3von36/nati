@@ -468,9 +468,9 @@ h2 {
 .clients-grid {
     display: grid;
     grid-template-columns: repeat(4, 174px);
-    gap: 16px;
+    gap: 12px;
     margin-top: 48px;
-    justify-content: center;
+    justify-content: start;
 }
 
 .client-item {
