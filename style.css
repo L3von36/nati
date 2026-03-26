@@ -470,7 +470,7 @@ h2 {
     grid-template-columns: repeat(4, 174px);
     gap: 12px;
     margin-top: 48px;
-    justify-content: start;
+    justify-content: center;
 }
 
 .client-item {
