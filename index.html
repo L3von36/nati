@@ -93,6 +93,8 @@
     }
     </script>
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='8' fill='%231E293B'/%3E%3Cline x1='5' y1='16' x2='38' y2='16' stroke='rgba(255,255,255,0.35)' stroke-width='2'/%3E%3Cline x1='3' y1='22' x2='38' y2='22' stroke='rgba(255,255,255,0.35)' stroke-width='2'/%3E%3Cline x1='1' y1='28' x2='38' y2='28' stroke='rgba(255,255,255,0.35)' stroke-width='2'/%3E%3Cline x1='0' y1='34' x2='38' y2='34' stroke='rgba(255,255,255,0.35)' stroke-width='2'/%3E%3Cpath d='M 2 44 C 8 34 18 20 30 10 C 36 5 42 2 46 1' stroke='rgba(255,255,255,0.9)' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3Cpath d='M 10 44 C 16 36 26 24 36 15 C 40 11 43 8 46 6' stroke='%23D5A754' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,7 +105,19 @@
     <header>
         <nav class="container">
 <div class="logo">
-    <span class="logo-text" aria-label="Terraline Consulting Engineers logo">TERRALINE</span>
+  <svg class="logo-mark" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <line x1="5"  y1="14" x2="40" y2="14" stroke="rgba(255,255,255,0.35)" stroke-width="1.8"/>
+    <line x1="3"  y1="20" x2="40" y2="20" stroke="rgba(255,255,255,0.35)" stroke-width="1.8"/>
+    <line x1="1"  y1="26" x2="40" y2="26" stroke="rgba(255,255,255,0.35)" stroke-width="1.8"/>
+    <line x1="0"  y1="32" x2="40" y2="32" stroke="rgba(255,255,255,0.35)" stroke-width="1.8"/>
+    <line x1="0"  y1="38" x2="40" y2="38" stroke="rgba(255,255,255,0.35)" stroke-width="1.8"/>
+    <path d="M 1 44 C 8 34 18 20 30 10 C 36 5 42 2 46 1" stroke="rgba(255,255,255,0.9)" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M 9 44 C 16 36 26 24 36 15 C 40 11 43 8 46 6" stroke="#D5A754" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </svg>
+  <div class="logo-text-block" aria-label="Terraline Consulting Engineers">
+    <div class="logo-wordmark"><span class="logo-terra">TERRA</span><span class="logo-line-word">LINE</span></div>
+    <div class="logo-consulting">Consulting Engineers</div>
+  </div>
 </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -374,7 +388,9 @@
 
     <footer>
         <div class="container footer-content">
-            <img src="https://narrative-navi-nook.lovable.app/assets/terraline-logo-B75n1WOL.png" alt="Terraline" class="footer-logo-img">
+            <div class="footer-brand">
+                <span class="logo-terra">TERRA</span><span class="logo-line-word">LINE</span>
+            </div>
             <p class="footer-copyright">&copy; <span id="footer-year"></span> Terraline Consulting Engineers. All rights reserved.</p>
         </div>
     </footer>

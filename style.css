@@ -65,14 +65,51 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.logo-text {
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
-    font-size: 1.3rem;
+.logo-mark {
+    width: 34px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.logo-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.logo-wordmark {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1;
+    letter-spacing: 0.08em;
+}
+
+.logo-terra {
     color: var(--text-white);
-    letter-spacing: 0.1em;
+}
+
+.logo-line-word {
+    color: var(--accent);
+}
+
+.logo-consulting {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.footer-brand {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.08em;
 }
 
 header.scrolled {
@@ -792,9 +829,7 @@ footer {
     .team-grid {
         grid-template-columns: 1fr;
     }
-    .logo-text {
-        font-size: 1.2rem;
-    }
+
 }
 
 @media (max-width: 768px) {
